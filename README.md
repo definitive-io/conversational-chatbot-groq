@@ -1,6 +1,6 @@
-# Groq Conversational Chatbot
+# Groq LangChain Conversational Chatbot
 
-This repository contains a Streamlit application that allows users to interact with a conversational chatbot powered by the Groq API. The application uses a list of starter prompts to initiate the conversation and maintains a history of the conversation to provide context for the chatbot's responses.
+This repository contains a Streamlit application that allows users to interact with a conversational chatbot powered by the LangChain API. The application uses the Groq API to generate responses and maintains a history of the conversation to provide context for the chatbot's responses.
 
 ## Features
 
@@ -8,23 +8,7 @@ This repository contains a Streamlit application that allows users to interact w
 
 - **Contextual Responses**: The application maintains a history of the conversation, which is used to provide context for the chatbot's responses.
 
-- **Customization**: Users can customize the Groq model used for generating responses and the length of the conversational memory.
-
-## Starter Prompts
-
-The starter prompts are stored in a text file located in the root directory:
-
-- `starter_prompts.txt`: Contains a list of prompts that users can use to start the conversation with the chatbot.
-
-## Functions
-
-- `chat_with_groq(client, prompt, model)`: Sends a chat message to the Groq API and returns the content of the response.
-
-- `get_conversational_history(user_question_history, chatbot_answer_history, conversational_memory_length)`: Generates a full prompt for the chatbot based on the history of the conversation.
-
-- `get_random_prompt(file_path)`: Reads a file of prompts and returns a random prompt.
-
-- `main()`: The main function of the application, which initializes the Groq client, sets up the Streamlit interface, and handles the chat interaction.
+- **LangChain Integration**: The chatbot is powered by the LangChain API, which uses advanced natural language processing techniques to generate human-like responses.
 
 ## Usage
 
