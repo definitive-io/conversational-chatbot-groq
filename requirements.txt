@@ -32,7 +32,8 @@ frozenlist==1.4.1
 fsspec==2024.2.0
 gitdb==4.0.11
 GitPython==3.1.41
-groq==0.4.0
+groq==0.4.1
+groqcloud @ https://console.groqcloud.com/groqcloud-0.0.1-py3-none-any.whl
 h11==0.14.0
 httpcore==1.0.2
 httpx==0.26.0
@@ -60,6 +61,7 @@ jupyterlab-widgets==3.0.3
 langchain==0.1.5
 langchain-community==0.0.19
 langchain-core==0.1.21
+langchain-groq==0.0.1
 langsmith==0.0.87
 markdown-it-py==3.0.0
 MarkupSafe==2.1.1
