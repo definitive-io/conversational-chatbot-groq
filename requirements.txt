@@ -57,7 +57,7 @@ jupyter_client==7.4.3
 jupyter_core==4.11.2
 jupyterlab-pygments==0.2.2
 jupyterlab-widgets==3.0.3
-langchain==0.1.5
+langchain==0.1.11
 langchain-community==0.0.19
 langchain-core==0.1.21
 langchain-groq==0.0.1
