@@ -59,7 +59,7 @@ jupyterlab-pygments==0.2.2
 jupyterlab-widgets==3.0.3
 langchain==0.1.5
 langchain-community==0.0.19
-langchain-core==0.1.21
+langchain-core==0.1.30
 langchain-groq==0.0.1
 langsmith==0.0.87
 markdown-it-py==3.0.0
