@@ -88,7 +88,7 @@ pandocfilters==1.5.0
 parso==0.8.3
 pexpect==4.8.0
 pickleshare==0.7.5
-pillow==10.2.0
+pillow==10.3.0
 pinecone-client==3.0.2
 prometheus-client==0.15.0
 prompt-toolkit==3.0.31
