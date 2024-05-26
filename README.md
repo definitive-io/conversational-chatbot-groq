@@ -1,4 +1,4 @@
-This is a fork of Groq's demo chatbot app. You can find it here: https://github.com/definitive-io/conversational-chatbot-groq
+**This is a fork of Groq's demo chatbot app.** You can find it here: https://github.com/definitive-io/conversational-chatbot-groq
 
 # Groq LangChain Conversational Chatbot
 
