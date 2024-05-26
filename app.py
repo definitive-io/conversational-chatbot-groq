@@ -13,15 +13,18 @@ from langchain_core.messages import SystemMessage
 from langchain.chains.conversation.memory import ConversationBufferWindowMemory
 from langchain_groq import ChatGroq
 from langchain.prompts import PromptTemplate
+from dotenv import load_dotenv
 
+load_dotenv()
 
 def main():
     """
     This function is the main entry point of the application. It sets up the Groq client, the Streamlit interface, and handles the chat interaction.
     """
-    
-    # Get Groq API key
+
     groq_api_key = os.environ['GROQ_API_KEY']
+    # Get Groq API key
+    #groq_api_key = 
 
     # Display the Groq logo
     spacer, col = st.columns([5, 1])  
@@ -37,7 +40,7 @@ def main():
     system_prompt = st.sidebar.text_input("System prompt:")
     model = st.sidebar.selectbox(
         'Choose a model',
-        ['llama3-8b-8192', 'mixtral-8x7b-32768', 'gemma-7b-it']
+        ['llama3-70b-8192', 'llama3-8b-8192', 'mixtral-8x7b-32768', 'gemma-7b-it']
     )
     conversational_memory_length = st.sidebar.slider('Conversational memory length:', 1, 10, value = 5)
 
