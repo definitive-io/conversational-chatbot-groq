@@ -21,7 +21,7 @@ def main():
     """
     
     # Get Groq API key
-    groq_api_key = os.environ['GROQ_API_KEY']
+    groq_api_key = os.environ['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']
 
     # Display the Groq logo
     spacer, col = st.columns([5, 1])  
@@ -37,7 +37,7 @@ def main():
     system_prompt = st.sidebar.text_input("System prompt:")
     model = st.sidebar.selectbox(
         'Choose a model',
-        ['llama3-8b-8192', 'mixtral-8x7b-32768', 'gemma-7b-it']
+        ['llama3-70b-8192', 'mixtral-8x7b-32768', 'gemma-7b-it']
     )
     conversational_memory_length = st.sidebar.slider('Conversational memory length:', 1, 10, value = 5)
 
